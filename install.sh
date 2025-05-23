@@ -27,7 +27,9 @@ echo "'software-properties-common' installed."
     ./dev-app.sh
     ./e4l.sh    
     ./nvim.sh   
-   
+    ./ct3.sh    
+    ./esp.sh
+    ./zephyr.sh
 
 echo ""
 echo "All installations script finished. Please open a new terminal window to ensure all PATH variables are loaded correctly, especially for Cargo."
