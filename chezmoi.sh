@@ -2,6 +2,9 @@
 
 echo "Starting chezmoi installation and dotfiles restoration for Ubuntu..."
 
+# Define your dotfiles repository URL
+DOTFILES_URL="git@github.com:CT3/dotfiles.git"
+
 # --- Step 1: Check and Install chezmoi ---
 echo "Checking for chezmoi..."
 if command -v chezmoi &> /dev/null
@@ -30,23 +33,17 @@ fi
 
 echo "chezmoi is ready."
 
+---
+
 # --- Step 2: Initialize chezmoi with your dotfiles repository ---
 echo ""
 echo "--- Initializing chezmoi with your dotfiles repository ---"
-echo "IMPORTANT: Only run this if you are initializing chezmoi for the first time on this machine with your dotfiles."
-echo "If your dotfiles are already managed by chezmoi, you can skip this step by entering nothing."
-echo "Example URL: https://github.com/yourusername/dotfiles.git"
+echo "Initializing chezmoi with: $DOTFILES_URL"
+chezmoi init "$DOTFILES_URL"
+# Note: chezmoi init typically clones the repo into ~/.local/share/chezmoi
+echo "chezmoi initialization attempt complete. Your dotfiles source should now be in ~/.local/share/chezmoi."
 
-read -p "Enter your dotfiles Git repository URL (or press Enter to skip): " DOTFILES_URL
-
-if [ -z "$DOTFILES_URL" ]; then
-    echo "No URL provided. Skipping chezmoi initialization. Assuming chezmoi is already configured."
-else
-    echo "Initializing chezmoi with: $DOTFILES_URL"
-    chezmoi init "$DOTFILES_URL"
-    # Note: chezmoi init typically clones the repo into ~/.local/share/chezmoi
-    echo "chezmoi initialization attempt complete. Your dotfiles source should now be in ~/.local/share/chezmoi."
-fi
+---
 
 # --- Step 3: Apply Your Dotfiles ---
 echo ""
@@ -57,5 +54,3 @@ read -p "Press Enter to apply your dotfiles (or Ctrl+C to cancel)..."
 
 chezmoi apply -v
 echo "chezmoi apply complete."
-
-echo "Dotfiles restoration process finished."
