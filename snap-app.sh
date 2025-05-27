@@ -22,6 +22,6 @@ echo "Installing snap packages..."
 snap install code --classic
 snap install chezmoi --classic
 snap install ghostty --classic
-sudo snap install mosquitto
-
+snap install mosquitto
+sudo snap install nextcloud
 echo "--- Finished snap-app.sh commands ---"

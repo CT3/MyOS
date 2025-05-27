@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the base directory for your code
-TARGET_BASE_DIR="$HOME/documents/code"
+TARGET_BASE_DIR="$HOME/Documents/code"
 
 # Define the list of Git repository URLs
 # Add all your repository URLs here, one per line.

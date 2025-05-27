@@ -1,7 +1,8 @@
 #!/bin/bash
-
+git config --global user.email "mantasjurkuvenas@gmail.com"
+  git config --global user.name "Mantas Jurkvenas"
 # Define the base directory for your code
-TARGET_BASE_DIR="$HOME/documents/code"
+TARGET_BASE_DIR="$HOME/Documents/code"
 
 # Define the list of Git repository URLs
 # Add all your repository URLs here, one per line.
