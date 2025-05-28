@@ -15,7 +15,7 @@ else
     echo "chezmoi not found. Attempting to install chezmoi on Ubuntu..."
     # Recommended way to install chezmoi on Linux
     echo "Downloading and running chezmoi installation script..."
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/twpayne/chezmoi/master/install.sh)"
+  pacman -S chezmoi
     if command -v chezmoi &> /dev/null; then
         echo "chezmoi installed successfully."
     else
