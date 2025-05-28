@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 echo "--- Installing common build tools and Python environment ---"
 
 # Install essential build tools (often part of base-devel, but explicit)

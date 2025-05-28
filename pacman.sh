@@ -4,6 +4,7 @@ echo "pacman install"
 sudo pacman -S git
 sudo pacman -S --needed base-devel
 
+sudo pacman -S fish
 sudo pacman -S starship
 sudo pacman -S stylua
 sudo pacman -S topgrade
