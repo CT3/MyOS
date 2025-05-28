@@ -1,38 +1,37 @@
 #!/bin/bash
 echo "pacman install"
 
-sudo pacman -S git
-sudo pacman -S --needed base-devel
+sudo pacman -S --noconfirm git
+sudo pacman -S --needed  --noconfirm base-devel
 
-sudo pacman -S fish
-sudo pacman -S starship
-sudo pacman -S stylua
-sudo pacman -S topgrade
-sudo pacman -S zellij
-sudo pacman -S zoxide
-sudo pacman -S dust
-sudo pacman -S eza
-sudo pacman -S gitui
-sudo pacman -S just
-sudo pacman -S ripgrep
-sudo pacman -S neofetch
-sudo pacman -S bat
-sudo pacman -S bottom
-sudo pacman -S rust
-sudo pacman -S ghosstty
-sudo pacman -S chezmoi
-sudo pacman -S mosquitto
-sudo pacman -S nextcloud-client
-
-sudo pacman -S kicad kicad-library kicad-library-3d
-sudo pacman -S vlc
-sudo pacman -S neovim
-sudo pacman -S arduino-ide
-sudo pacman -S calibre
-sudo pacman -S handbrake
-sudo pacman -S nextcloud-client
-sudo pacman -S arduino-cli
-sudo pacman -S python
+sudo pacman -S --noconfirm fish
+sudo pacman -S --noconfirm starship
+sudo pacman -S --noconfirm stylua
+sudo pacman -S --noconfirm topgrade
+sudo pacman -S --noconfirm zellij
+sudo pacman -S --noconfirm zoxide
+sudo pacman -S --noconfirm dust
+sudo pacman -S --noconfirm eza
+sudo pacman -S --noconfirm gitui
+sudo pacman -S --noconfirm just
+sudo pacman -S --noconfirm ripgrep
+sudo pacman -S --noconfirm neofetch
+sudo pacman -S --noconfirm bat
+sudo pacman -S --noconfirm bottom
+sudo pacman -S --noconfirm rust
+sudo pacman -S --noconfirm ghosstty
+sudo pacman -S --noconfirm chezmoi
+sudo pacman -S --noconfirm mosquitto
+sudo pacman -S --noconfirm nextcloud-client
+sudo pacman -S --noconfirm kicad kicad-library kicad-library-3d
+sudo pacman -S --noconfirm vlc
+sudo pacman -S --noconfirm neovim
+sudo pacman -S --noconfirm arduino-ide
+sudo pacman -S --noconfirm calibre
+sudo pacman -S --noconfirm handbrake
+sudo pacman -S --noconfirm nextcloud-client
+sudo pacman -S --noconfirm arduino-cli
+sudo pacman -S --noconfirm python
 
 
 echo "pacman install done"
