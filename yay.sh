@@ -9,7 +9,8 @@ APPS=(
     "visual-studio-code-bin"
     "nrfutil"
     "jlink-software-and-documentation-pack"
-
+    "python-west"
+    "rm-improved"
 )
 
 # Function to check if a command exists

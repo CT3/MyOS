@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "pacman install"
-
+sudo pacman -Syu
 sudo pacman -S --noconfirm git
 sudo pacman -S --needed  --noconfirm base-devel
 
