@@ -4,6 +4,7 @@ sudo pacman -Syu
 sudo pacman -S --noconfirm git
 sudo pacman -S --needed  --noconfirm base-devel
 sudo pacman -S --noconfirm xclip
+sudo pacman -S --noconfirm android-tools
 sudo pacman -S --noconfirm fish
 sudo pacman -S --noconfirm starship
 sudo pacman -S --noconfirm stylua
