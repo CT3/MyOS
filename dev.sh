@@ -5,7 +5,7 @@ sudo pacman -S --noconfirm libunistring
 sudo pacman -S --noconfirm libxcrypt-compat
 
 sudo yay -S jlink-software-and-documentation
-
+sudo gpasswd -a $USER adbusers
 #nrf util
 nrfutil install sdk-manager
 nrfutil install toolchain-manager
