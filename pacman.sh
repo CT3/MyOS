@@ -20,7 +20,7 @@ sudo pacman -S --noconfirm neofetch
 sudo pacman -S --noconfirm bat
 sudo pacman -S --noconfirm bottom
 sudo pacman -S --noconfirm rust
-sudo pacman -S --noconfirm ghosstty
+sudo pacman -S --noconfirm ghostty
 sudo pacman -S --noconfirm chezmoi
 sudo pacman -S --noconfirm mosquitto
 sudo pacman -S --noconfirm nextcloud-client
@@ -33,7 +33,7 @@ sudo pacman -S --noconfirm handbrake
 sudo pacman -S --noconfirm nextcloud-client
 sudo pacman -S --noconfirm arduino-cli
 sudo pacman -S --noconfirm python
-
+sudo pacman -S --noconfirm ttf-firacode-nerd
 
 echo "pacman install done"
 

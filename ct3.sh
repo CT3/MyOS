@@ -11,6 +11,7 @@ GIT_REPOS=(
     "git@github.com:CT3/CopyPasta.git"
     "git@github.com:CT3/aserial.git"
     "git@github.com:CT3/initC.git"
+    "git@github.com:CT3/MyOS.git"
 )
 
 # Function to display error messages and exit

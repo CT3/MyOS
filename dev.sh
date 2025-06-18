@@ -11,3 +11,5 @@ nrfutil install sdk-manager
 nrfutil install toolchain-manager
 nrfutil install nrf5sdk-tools
 
+
+sudo usermod -a -G uucp mantas #add uucp group for searial montitor
