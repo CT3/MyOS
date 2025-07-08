@@ -34,6 +34,8 @@ sudo pacman -S --noconfirm nextcloud-client
 sudo pacman -S --noconfirm arduino-cli
 sudo pacman -S --noconfirm python
 sudo pacman -S --noconfirm ttf-firacode-nerd
+sudo pacman -S --noconfirm gvfs-mtp libmtp android-udev
+sudo pacman -S --noconfirm udisks2 udiskie
 
 echo "pacman install done"
 
