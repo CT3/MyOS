@@ -36,6 +36,6 @@ sudo pacman -S --noconfirm python
 sudo pacman -S --noconfirm ttf-firacode-nerd
 sudo pacman -S --noconfirm gvfs-mtp libmtp android-udev
 sudo pacman -S --noconfirm udisks2 udiskie
-
+sudo pacman -S --noconfirm viewnior
 echo "pacman install done"
 
