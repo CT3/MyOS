@@ -17,6 +17,8 @@ CASKS=(
     "calibre"
     "handbrake"
     "font-fira-code-nerd-font"
+    "raycast"
+    "amethyst"
 )
 
 command_exists () {
