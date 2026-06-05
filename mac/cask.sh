@@ -19,6 +19,7 @@ CASKS=(
     "font-fira-code-nerd-font"
     "raycast"
     "amethyst"
+    "alt-tab"
 )
 
 command_exists () {
