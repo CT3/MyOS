@@ -19,8 +19,6 @@ CASKS=(
     "ghostty"
     "font-fira-code-nerd-font"
     # Window management / utilities
-    "raycast"
-    "amethyst"
     "aerospace"
     "alt-tab"
     "karabiner-elements"
