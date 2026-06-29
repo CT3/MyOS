@@ -26,29 +26,57 @@ brew update
 
 # CLI tools / formulas
 FORMULAS=(
+    # Shell / prompt / navigation
     git
+    gh
     fish
     starship
-    stylua
-    topgrade
-    zellij
     zoxide
+    fzf
+    zellij
+    # Modern CLI replacements / viewers
     dust
     eza
-    gitui
-    just
-    ripgrep
-    neofetch
     bat
     bottom
-    rust
-    chezmoi
-    mosquitto
+    gitui
+    glow
+    ripgrep
+    neofetch
+    just
+    topgrade
+    wget
+    # Editor / lua
     neovim
-    arduino-cli
+    stylua
+    # Languages / runtimes / build
+    rust
     python
-    android-platform-tools
+    node@18
+    yarn
+    openjdk@17
+    gradle
+    cmake
+    ninja
+    ccache
     libffi
+    # AI / cloud
+    aichat
+    azure-cli
+    # Embedded / hardware dev
+    arduino-cli
+    platformio
+    dfu-util
+    mosquitto
+    doxygen
+    # iOS / Xcode tooling
+    xcodegen
+    # Media tooling
+    ffmpeg
+    yt-dlp
+    poppler
+    # dotfiles
+    chezmoi
 )
 
 for formula in "${FORMULAS[@]}"; do

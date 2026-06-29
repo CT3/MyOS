@@ -4,22 +4,38 @@
 
 # Cask apps to install
 CASKS=(
+    # Browsers / comms
     "zoom"
     "brave-browser"
     "slack"
+    "localsend"
+    # Productivity / notes
     "obsidian"
+    "claude"
+    "nextcloud"
+    "calibre"
+    # Editors / terminal
     "visual-studio-code"
     "ghostty"
-    "nextcloud"
-    "kicad"
-    "vlc"
-    "arduino-ide"
-    "calibre"
-    "handbrake"
     "font-fira-code-nerd-font"
+    # Window management / utilities
     "raycast"
     "amethyst"
+    "aerospace"
     "alt-tab"
+    "karabiner-elements"
+    "scroll-reverser"
+    "keepingyouawake"
+    # Media
+    "vlc"
+    "handbrake-app"
+    # Embedded / hardware dev
+    "kicad"
+    "arduino-ide"
+    "android-commandlinetools"
+    "android-platform-tools"
+    "nordic-nrf-command-line-tools"
+    "segger-jlink"
 )
 
 command_exists () {
