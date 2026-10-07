@@ -42,13 +42,21 @@ FORMULAS=(
     gitui
     glow
     ripgrep
-    neofetch
+    fastfetch
     just
     topgrade
     wget
+    rclone
+    sevenzip
+    unar
+    mole
+    ntfy
+    mas
+    transmission-cli
     # Editor / lua
     neovim
     stylua
+    tree-sitter-cli
     # Languages / runtimes / build
     rust
     python
@@ -56,12 +64,14 @@ FORMULAS=(
     yarn
     openjdk@17
     gradle
+    maven
     cmake
     ninja
     ccache
     libffi
     # AI / cloud
     aichat
+    apfel
     azure-cli
     # Embedded / hardware dev
     arduino-cli
@@ -75,6 +85,9 @@ FORMULAS=(
     ffmpeg
     yt-dlp
     poppler
+    # Documents
+    pandoc
+    weasyprint
     # dotfiles
     chezmoi
 )

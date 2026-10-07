@@ -27,10 +27,22 @@ fi
 
 echo "--- Installing Cargo-based applications ---"
 
-cargo install aichat
-cargo install aserial
-cargo install cargo-update
-cargo install cpst
-cargo install rm-improved
+# aichat and dust come from Homebrew (brew.sh)
+CRATES=(
+    aserial
+    cargo-update
+    cpst
+    rm-improved
+    diskonaut
+    doxx
+    dua-cli
+    jtodo
+    sweep-cli
+)
+
+for crate in "${CRATES[@]}"; do
+    echo "Installing $crate..."
+    cargo install "$crate" || echo "Warning: Failed to install $crate."
+done
 
 echo "--- Finished cargo-app.sh commands ---"
