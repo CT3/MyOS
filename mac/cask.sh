@@ -26,7 +26,7 @@ CASKS=(
     # Window management / utilities
     "aerospace"
     "alt-tab"
-    "karabiner-elements"
+    "hammerspoon"
     "scroll-reverser"
     "keepingyouawake"
     "vorssaint"
